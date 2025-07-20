@@ -1,0 +1,20 @@
+{
+  "name": "reading-form-data",
+  "version": "1.0.0",
+  "description": "The purpose of this lab is to get more comfortable reading form data on the server. In this lab we will be creating a Madlibs style game where we will ask the user for a few words, and then enter them into a story when the final word has been submitted; using forms! We will be setting up dynamic routes to ask the user for words in sequence until we have enough words to fill out our story.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
